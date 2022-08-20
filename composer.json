@@ -1,0 +1,23 @@
+{
+    "name": "flo-pe/t3-monitoring",
+    "type": "typo3-cms-extension",
+    "description": "Add various monitoring possibilitie",
+    "homepage": "https://florianpeters.de",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "typo3/cms-rte-ckeditor": "^11.5",
+        "typo3/cms-fluid-styled-content": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FloPe\\T3Monitoring\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_monitoring"
+        }
+    }
+}
