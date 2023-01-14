@@ -1,0 +1,9 @@
+{
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/app.js": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/app.js",
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/runtime.js": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/runtime.js",
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/Resources_Private_Scss_app_scss.css": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/Resources_Private_Scss_app_scss.css",
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/Resources_Private_Scss_app_scss.js": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/Resources_Private_Scss_app_scss.js",
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/Resources_Private_JavaScript_components_chart_js.js": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/Resources_Private_JavaScript_components_chart_js.js",
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/vendors-node_modules_chart_js_dist_chart_mjs.js": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/vendors-node_modules_chart_js_dist_chart_mjs.js",
+  "typo3conf/ext/t3_monitoring/Resources/Public/Build/vendors-node_modules_chart_js_auto_auto_mjs.js": "/typo3conf/ext/t3_monitoring/Resources/Public/Build/vendors-node_modules_chart_js_auto_auto_mjs.js"
+}

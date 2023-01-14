@@ -1,0 +1,10 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/typo3conf/ext/t3_monitoring/Resources/Public/Build/runtime.js",
+        "/typo3conf/ext/t3_monitoring/Resources/Public/Build/app.js"
+      ]
+    }
+  }
+}

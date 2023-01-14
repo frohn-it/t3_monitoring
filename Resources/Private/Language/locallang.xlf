@@ -6,6 +6,41 @@
             <authorEmail>typo3@florianpeters.de</authorEmail>
         </header>
         <body>
+
+            <trans-unit id="module.log.title">
+                <source>Issues</source>
+            </trans-unit>
+
+            <trans-unit id="new.issue">
+                <source>New issue</source>
+            </trans-unit>
+            <trans-unit id="new.issue.description">
+                <source>You must mark the issue as reviewed to remove this hint!</source>
+            </trans-unit>
+            <trans-unit id="time.diff.days">
+                <source>%d days ago</source>
+            </trans-unit>
+            <trans-unit id="time.diff.hours">
+                <source>%d hours ago</source>
+            </trans-unit>
+            <trans-unit id="time.diff.minutes">
+                <source>%d minutes ago</source>
+            </trans-unit>
+            <trans-unit id="time.diff.seconds">
+                <source>%d seconds ago</source>
+            </trans-unit>
+            <trans-unit id="date.format">
+                <source>F j, H:i:s</source>
+            </trans-unit>
+            <trans-unit id="time.last.seen">
+                <source>Last seen: %s</source>
+            </trans-unit>
+            <trans-unit id="time.first.seen">
+                <source>First seen: %s</source>
+            </trans-unit>
+            <trans-unit id="chart.value.label">
+                <source>Number of events</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

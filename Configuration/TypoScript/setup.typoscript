@@ -1,0 +1,25 @@
+#page.includeJSLibs.t3_monitoring_runtime = /typo3conf/ext/t3_monitoring/Resources/Public/Build/runtime.js
+#page.includeJSLibs.t3_monitoring_app = /typo3conf/ext/t3_monitoring/Resources/Public/Build/app.js
+page.includeJSFooterlibs.t3_monitoring_test = /typo3conf/ext/t3_monitoring/Resources/Public/JavaScript/test.js
+page.includeJSFooterlibs.t3_monitoring_test2 = /typo3conf/ext/t3_monitoring/Resources/Public/JavaScript/test2.js
+
+page.headerData.2 = TEXT
+page.headerData.2.value (
+<script>
+    window.onerror = function monitoringErrorHandler(errorMsg, url, lineNumber, errorNr, errorObj) {
+        fetch("/api/error", {
+            method: "POST",
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                message: errorMsg,
+                js_source_file: url,
+                lineNumber: lineNumber,
+                errorNr: errorNr,
+                stack: errorObj.stack,
+            })
+        });
+
+        return false;
+    }
+</script>
+)
